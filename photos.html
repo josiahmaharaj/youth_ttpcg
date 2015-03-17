@@ -1,0 +1,34 @@
+---
+layout: default
+title: photos
+permalink: /photos/
+---
+
+<script type="text/javascript" src="/assets/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="/assets/js/lightbox.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/lightbox.css">
+
+<section class="photo_wrap">
+
+	{% for gallery in site.data.galleries %}
+		<div class="album-wrap">
+			
+				<h4>{{ gallery.album }}</h4>
+			<div class="images-wrap>">
+				<ul>
+				{% for image in gallery.images %}
+					<li>
+						<a href="{{ image.url }}" data-lightbox="{{ gallery.album | slugify }}"alt="img">
+							<img src="{{ image.thumb }}">
+						</a>
+					</li>
+				{% endfor %}
+				</ul>
+			</div>
+
+		</div>
+	{% endfor %}
+
+
+
+</section>

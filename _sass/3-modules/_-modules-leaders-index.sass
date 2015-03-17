@@ -1,0 +1,51 @@
+.leaders-wrap
+	display: block
+	max-width: 800px
+	margin: 0 auto
+
+	h2
+		text-align: center
+		padding-bottom: 30px
+
+	.leaders-twec
+		margin-left: 30px
+		margin-right: 30px
+		padding-left: 10px
+		padding-right: 10px
+
+	.leaders-nlt
+		margin-left: 30px
+		margin-right: 30px
+		padding-left: 10px
+		padding-right: 10px
+
+	.leaders-fet
+		margin-left: 30px
+		margin-right: 30px
+		padding-left: 10px
+		padding-right: 10px
+
+
+.avatar-wrap
+	position: relative
+	margin: 0 auto
+	+display(flex)
+	+justify-content(space-around)
+
+	.avatars
+		img
+			+size(100px)
+			border-radius: 50%
+
+		p
+			text-align: center
+			width: 100px
+
+@media screen and (max-width: 520px)
+	.leaders-twec-arouca
+		.avatar-wrap
+			display: block
+			text-align: center
+
+			.avatars
+				display: inline-block

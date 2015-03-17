@@ -1,0 +1,20 @@
+ <header>
+
+  <nav>
+    <ul>
+      {% for page in site.pages_list %}
+      <li class="active"> 
+              <a href="{{ page[1] }}" class="animated bounce">{{ page[0] }}</a>
+          </li>
+        {% endfor %}
+    </ul>
+  </nav>
+
+  <div class="logo_holder">
+    <div class="logo">
+      <h1><strong>P.C.G</strong></h1>
+      <h2>youth</h2>
+    </div>
+    <p>Trinidad and Tobago</p>
+  </div>
+</header>

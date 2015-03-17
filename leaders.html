@@ -1,0 +1,93 @@
+---
+layout: default
+title: leaders
+permalink: /leaders/
+---
+
+<section class="leaders-wrap">
+
+    <h2>Our Leaders</h2>
+    
+    <div class="leaders-twec">
+        
+        <h3>True Worshippers Evangelistic Centre</h3>
+        
+        <div class="leaders-twec-arouca">
+            <h4>Arouca</h4>
+            <div class="avatar-wrap">
+                {% for leader in site.data.leaders.twec-arouca %}
+                    <div class="avatars"> 
+                        <img src="{{ leader.img }}" alt="{{ leader.name }}">
+                         <p>{{ leader.name }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="leaders-twec-coryal">
+            <h4>Coryal</h4>
+            <div class="avatar-wrap">
+                {% for leader in site.data.leaders.twec-coryal %}
+                    <div class="avatars"> 
+                        <img src="{{ leader.img }}" alt="{{ leader.name }}">
+                         <p>{{ leader.name }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="leaders-twec-valencia">
+            <h4>Valencia</h4>
+            <div class="avatar-wrap">
+                {% for leader in site.data.leaders.twec-valencia %}
+                    <div class="avatars"> 
+                        <img src="{{ leader.img }}" alt="{{ leader.name }}">
+                         <p>{{ leader.name }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    
+    <div class="leaders-nlt">
+        <h3>New Lift Temple</h3>
+        <div class="avatar-wrap">
+                {% for leader in site.data.leaders.nlt %}
+                    <div class="avatars"> 
+                        <img src="{{ leader.img }}" alt="{{ leader.name }}">
+                         <p>{{ leader.name }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+    </div>
+    
+    <div class="leaders-fet">
+        <h3>Faith Evangel Tabernacle</h3>
+
+        <div class="leaders-fet-buenosaires">
+            <h4>Buenos Aires</h4>
+            <div class="avatar-wrap">
+                {% for leader in site.data.leaders.fet-buenos_aires %}
+                    <div class="avatars"> 
+                        <img src="{{ leader.img }}" alt="{{ leader.name }}">
+                         <p>{{ leader.name }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="leaders-fet-penal">
+            <h4>Penal</h4>
+            <div class="avatar-wrap">
+                {% for leader in site.data.leaders.fet-penal %}
+                    <div class="avatars"> 
+                        <img src="{{ leader.img }}" alt="{{ leader.name }}">
+                         <p>{{ leader.name }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+    </div>
+    
+</section>

@@ -1,0 +1,15 @@
+# Site settings
+title: TTPCG
+#email: your-email@domain.com
+description: Website dedicated to the Penetecostal Church of God Trinidad and Tobago- Youths
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://youth.ttpcg.org" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+pages_list:      
+  home: '/' 
+  leaders: '/leaders/'
+  photos: '/photos/'
+  videos: '/videos/'
