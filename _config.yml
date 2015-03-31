@@ -11,5 +11,6 @@ markdown: kramdown
 pages_list:      
   home: '/' 
   leaders: '/leaders/'
+  events: '/events/'
   photos: '/photos/'
   videos: '/videos/'

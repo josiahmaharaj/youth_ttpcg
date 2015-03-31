@@ -1,0 +1,31 @@
+---
+layout: default
+title: home
+permalink: /events/
+---
+
+<section class="events">
+
+	<h2>Events for this Year</h2>
+
+	<div class="events-wrap">
+
+		{% for event in site.data.events %}
+
+			<h4>{{ event.months }}</h4>
+
+			{% for e in event.es %}
+
+				<p>{{ e.title }}</p>
+
+				<p><strong>Date </strong>{{ e.dates }}</p>
+				
+				<a target="_blank" href="{{ e.link }}">{{ e.link-kicker }}</a>
+
+			{% endfor %}
+
+		{% endfor %}
+
+	</div>
+
+</section>
