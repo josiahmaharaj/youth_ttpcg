@@ -4,7 +4,7 @@ title: TTPCG
 description: Website dedicated to the Penetecostal Church of God Trinidad and Tobago- Youths
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://youth.ttpcg.org" # the base hostname & protocol for your site
-
+permalink: /blog/:year/:month/:day/:title/
 # Build settings
 markdown: kramdown
 
@@ -14,3 +14,4 @@ pages_list:
   events: '/events/'
   photos: '/photos/'
   videos: '/videos/'
+  blog: '/blog/'

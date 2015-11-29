@@ -1,0 +1,27 @@
+---
+layout: default
+title: blog
+permalink: /blog/
+---
+
+<script type="text/javascript" src="/assets/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="/assets/js/lightbox.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/lightbox.css">
+
+
+
+<section class="blog_wrap">
+
+	<h2>Discussions</h2>
+
+	<div class="posts_wrap">
+		{% for post in site.posts %}
+			<div class="post_wrap">
+				<h3><a href="{{post.url | prepend: site.baseurl}}">{{ post.title }}</a></h2>
+				<p><em>{{ post.date | date: "%b %-d, %Y" }}</em></p>
+				<p><strong>written by: {{ post.author }}</strong></p>
+			</div>
+		{% endfor %}
+	</div>
+
+</section>
