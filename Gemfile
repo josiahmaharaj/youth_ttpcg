@@ -12,3 +12,4 @@ gem 'kramdown', ">= 1.3"
 gem 'liquid', ">=3.0"
 gem 'mercenary'
 gem 'rouge', ">=1.0"
+gem 'jekyll-paginate'
