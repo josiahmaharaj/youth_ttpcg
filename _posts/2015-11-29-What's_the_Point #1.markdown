@@ -5,6 +5,7 @@ date:   2015-11-29
 categories: encouragement 
 author: Rev. Lincoln Maharaj
 profile: https://dl.dropboxusercontent.com/u/41879215/TTPCG_youth/leaders/lincoln.png
+comments: true
 ---
 
 #What’s the Point?
