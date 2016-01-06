@@ -12,16 +12,17 @@ comments: true
 
 A blessed 2016 to all...let it be a Stand-Out year for us.
 
-Many times we say that we should stand up for Christ..I say, I sing it, I believe it.
-So I think that many of us are standing..I’m now thinking that we should stand-out for Christ.
+Many times we say that we should stand up for Christ...I say, I sing it, I believe it.
+So I think that many of us are standing...I’m now thinking that we should stand-out for Christ.
 That is a little something many of our young people are having trouble with. Don’t get me wrong, many adult christians are facing the same challenge. 
 
-Let us take a good look at our lives and as we do remember..
+Let us take a good look at our lives and as we do remember...
 
-We are a new creatures in Christ
-We should behave what we believe
-We ought to line up our lives with the WORD
-We are to be Christlike
+We are new creatures in Christ. <br> 			
+We should behave what we believe. 	<br>		
+We ought to line up our lives with the WORD. <br>
+We are to be Christlike. 
+
 
 >
 -------------------------------------------------
@@ -33,6 +34,6 @@ and your behavior should show it!
 >
 -------------------------------------------------
 
-We need to stand out for CHRIST..let the world see The Christ in us.
-What do you think ? 
+We need to stand out for CHRIST, let the world see The Christ in us.<br>
+What do you think ? <br>
 Are you up for the challenge?
