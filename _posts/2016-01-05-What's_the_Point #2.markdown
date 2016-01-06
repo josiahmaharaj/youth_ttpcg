@@ -12,7 +12,7 @@ comments: true
 
 A blessed 2016 to all...let it be a Stand-Out year for us.
 
-Many times we say that we should stand up for Christ...I say, I sing it, I believe it.
+Many times we say that we should stand up for Christ...I say it, I sing it, I believe it.
 So I think that many of us are standing...I’m now thinking that we should stand-out for Christ.
 That is a little something many of our young people are having trouble with. Don’t get me wrong, many adult christians are facing the same challenge. 
 
