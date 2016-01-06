@@ -17,7 +17,7 @@ permalink: /blog/
 	<div class="posts_wrap">
 		{% for post in site.posts %}
 			<div class="post_wrap">
-				<h3><a href="{{post.url | prepend: site.baseurl}}">{{ post.title }}</a></h2>
+				<h3><a href="{{post.url | prepend: site.baseurl}}"><u>{{ post.title }}</u></a></h2>
 				<p><em>{{ post.date | date: "%b %-d, %Y" }}</em></p>
 				<p><strong>written by: {{ post.author }}</strong></p>
 			</div>
