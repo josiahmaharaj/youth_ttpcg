@@ -15,3 +15,4 @@ pages_list:
   photos: '/photos/'
   videos: '/videos/'
   blog: '/blog/'
+  live: '/live/'
